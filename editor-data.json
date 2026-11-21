@@ -500,8 +500,8 @@
     "logo": "",
     "socialTitle": "KIYOTO Creative Team",
     "socialDescription": "An independent creative team. Photography, film, brand identity and design.",
-    "favicon": "",
-    "icon": "",
-    "socialImage": ""
+    "favicon": "assets/site-favicon.png",
+    "icon": "assets/apple-touch-icon.png",
+    "socialImage": "assets/social-preview.png"
   }
 }
