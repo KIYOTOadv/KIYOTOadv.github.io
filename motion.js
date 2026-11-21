@@ -82,7 +82,12 @@ window.KiyotoMotion={install(isPaused){
      const paper1=board.querySelector('.p-one'),paper2=board.querySelector('.p-two'),paper3=board.querySelector('.p-three'),focus=board.querySelector('.proof-focus');
      const scenes=[{r:[-14,13,-2],x:[-6,25,5],y:[-3,3,13],focus:.95},{r:[-4,4,0],x:[-20,20,0],y:[0,0,0],focus:1.06},{r:[0,0,0],x:[-5,5,0],y:[0,0,0],focus:.78},{r:[-7,7,0],x:[-10,12,8],y:[-4,0,10],focus:.96}];
      const selectStage=i=>{const config=scenes[i];[paper1,paper2,paper3].forEach((el,j)=>gs.to(el,{rotation:config.r[j],xPercent:config.x[j],yPercent:config.y[j],duration:isPaused()?0:.85,ease:'power3.inOut',overwrite:true}));gs.to(focus,{scale:config.focus,duration:isPaused()?0:.85,ease:'power3.inOut',overwrite:true});document.querySelector('.board-stage').textContent=`0${i+1} / 04`;document.querySelectorAll('button[data-stage]').forEach((b,j)=>b.setAttribute('aria-pressed',String(i===j)));board.dataset.stage=i;};
-     document.querySelectorAll('.stage').forEach((el,i)=>{ST.create({trigger:el,start:'top center',end:'bottom center',onEnter:()=>selectStage(i),onEnterBack:()=>selectStage(i)});});
+     const column=document.querySelector('.proof-column');
+     const stageLine=()=>matchMedia('(max-width:900px)').matches ? Math.ceil(column.getBoundingClientRect().height+64)+'px' : 'center';
+     let lastHeight=0,resizeFrame=0;
+     const sizeObserver=new ResizeObserver(()=>{const height=Math.ceil(column.getBoundingClientRect().height);if(height===lastHeight)return;lastHeight=height;document.querySelector('.practice-section').style.setProperty('--mobile-proof-height',height+'px');cancelAnimationFrame(resizeFrame);resizeFrame=requestAnimationFrame(()=>ST.refresh());});
+     sizeObserver.observe(column);clean.push(()=>{sizeObserver.disconnect();cancelAnimationFrame(resizeFrame);});
+     document.querySelectorAll('.stage').forEach((el,i)=>{ST.create({trigger:el,start:()=>'top '+stageLine(),end:()=>'bottom '+stageLine(),invalidateOnRefresh:true,onEnter:()=>selectStage(i),onEnterBack:()=>selectStage(i)});});
      document.querySelectorAll('button[data-stage]').forEach(b=>b.addEventListener('click',()=>selectStage(Number(b.dataset.stage))));selectStage(0);
     }
    }

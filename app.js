@@ -86,7 +86,7 @@
    update();
   }
 
-  document.querySelectorAll('button[data-stage]').forEach(b=>b.onclick=()=>{document.getElementById('stage-'+b.dataset.stage).scrollIntoView({behavior:paused?'instant':'smooth',block:'center'});});
+  document.querySelectorAll('button[data-stage]').forEach(b=>b.onclick=()=>{document.getElementById('stage-'+b.dataset.stage).scrollIntoView({behavior:paused?'instant':'smooth',block:matchMedia('(max-width:900px)').matches?'start':'center'});});
  }
  function syncMotion(){document.documentElement.classList.toggle('motion-off',paused);const b=document.querySelector('[data-pause]');b.textContent=paused?'▶':'Ⅱ';b.setAttribute('aria-pressed',String(paused));b.setAttribute('aria-label',paused?extras[lang].play:extras[lang].pause);document.dispatchEvent(new Event('kiyoto:motion'));}
  media.addEventListener('change',()=>{paused=media.matches||read('kiyoto-v2-motion')==='paused';syncMotion();});
