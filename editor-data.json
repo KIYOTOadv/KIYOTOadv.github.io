@@ -1,38 +1,6 @@
 {
   "version": 1,
-  "projects": [
-    {
-      "id": "slot-a3ec0e68-4540-4ed5-8d96-0e12a169e371",
-      "title": {
-        "en": "flora",
-        "fa": "",
-        "ar": ""
-      },
-      "description": {
-        "en": "flora is a fashion brand that makes bulllshit ",
-        "fa": "",
-        "ar": ""
-      },
-      "discipline": "event-film",
-      "slot": 1,
-      "year": "2025",
-      "client": "flora",
-      "media": [
-        {
-          "src": "assets/uploads/67317e889d-wewewerwarawrwarwe-copy.jpg",
-          "type": "image",
-          "alt": {
-            "en": "",
-            "fa": "",
-            "ar": ""
-          },
-          "x": 50,
-          "y": 50
-        }
-      ],
-      "published": true
-    }
-  ],
+  "projects": [],
   "members": [
     {
       "id": "erfan",
