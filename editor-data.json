@@ -1,6 +1,49 @@
 {
   "version": 1,
-  "projects": [],
+  "projects": [
+    {
+      "id": "slot-22b1e330-fa51-4670-9b6d-c66249f0f703",
+      "title": {
+        "en": "CHEF.",
+        "fa": "",
+        "ar": ""
+      },
+      "description": {
+        "en": "piaz piaz",
+        "fa": "",
+        "ar": ""
+      },
+      "discipline": "food",
+      "slot": 1,
+      "year": "2026",
+      "client": "chef",
+      "media": [
+        {
+          "src": "assets/uploads/e29b3d8e53-IMG_1614.JPEG",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "assets/uploads/5ef7ab221f-crop-6dd1652f4d-IMG_1613.png",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        }
+      ],
+      "published": true
+    }
+  ],
   "members": [
     {
       "id": "erfan",
@@ -503,5 +546,9 @@
     "favicon": "assets/site-favicon.png",
     "icon": "assets/apple-touch-icon.png",
     "socialImage": "assets/social-preview.png"
+  },
+  "lastUpdate": {
+    "name": "parsa",
+    "at": "2026-11-21T22:50:39.102Z"
   }
 }
