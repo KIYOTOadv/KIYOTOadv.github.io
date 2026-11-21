@@ -36,3 +36,8 @@ header{min-height:90px;display:grid;grid-template-columns:1fr auto 1fr;gap:40px;
 
 /* Keep the process study with its essays on phones and tablets. */
 @media(max-width:900px){.practice-section{position:relative;isolation:isolate}.proof-column{position:sticky;top:0;z-index:4;background:var(--paper);padding:10px 0 8px;border-bottom:1px solid var(--rule);margin-bottom:25px}.proof-sticky{position:static;max-width:none;margin:0}.proof-board{width:min(100%,36svh);aspect-ratio:1.15;margin-inline:auto}.stage-buttons{grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-top:12px}.stage-buttons button{min-height:58px;padding:8px 2px;font-size:11px;line-height:1.45}.stage-buttons button>span{display:block}.stage-buttons button>span:first-child{font-size:13px;margin-bottom:5px}.stage{min-height:calc(100svh - var(--mobile-proof-height,340px) - 24px);padding:35px 0 55px;scroll-margin-top:calc(var(--mobile-proof-height,340px) + 24px)}.stage h2{font-size:clamp(30px,7.8vw,52px)}html[dir=rtl] .stage h2{font-size:clamp(29px,7vw,42px)}}
+
+/* Reveal the official letterforms in place, without moving the logo plate. */
+.giant-word>.brand-art{position:relative;background:transparent}.logo-letter,.logo-tagline{position:absolute;inset:0;display:block;background:currentColor}.logo-tagline{clip-path:inset(69.565% 0 0 0)}
+
+.footer-brand{gap:7%;align-items:center}.footer-brand>.brand-art{width:65%;max-width:760px}.footer-brand>.symbol{width:22%;max-width:190px;height:auto;aspect-ratio:2449/3278;flex-shrink:0}

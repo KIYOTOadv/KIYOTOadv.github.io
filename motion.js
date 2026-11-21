@@ -69,7 +69,7 @@ window.KiyotoMotion={install(isPaused){
  if(gs){
   const context=gs.context(()=>{
    intro=gs.timeline({paused:true,defaults:{ease:'power3.out'}});
-   if(document.querySelector('.giant-word'))intro.from('.giant-word>span',{yPercent:110,rotation:5,duration:1.15,stagger:.055}).from('.masthead-foot',{y:15,autoAlpha:0,duration:.55},'-.5');
+   if(document.querySelector('.giant-word'))intro.from('.logo-letter',{autoAlpha:0,filter:'blur(5px)',duration:.65,stagger:.09,clearProps:'filter'}).from('.logo-tagline',{autoAlpha:0,filter:'blur(3px)',duration:.65,clearProps:'filter'},.35).from('.masthead-foot',{autoAlpha:0,duration:.55},'-.3');
    else intro.from('.editorial-hero h1>span',{y:40,autoAlpha:0,duration:.9,stagger:.1});
    // Related shapes move as a composition, not a collection of unrelated reveals.
    document.querySelectorAll('.principle-figure').forEach((el,i)=>{const targets=el.querySelectorAll('i');const tl=gs.timeline({repeat:-1,yoyo:true,paused:true,defaults:{duration:3.4,ease:'sine.inOut'}});if(i===0)tl.to(targets[0],{scaleX:.58,rotation:20},0).to(targets[1],{x:45,scale:.65},0);else if(i===1)tl.to(targets,{rotation:j=>j?-95:95,scale:j=>j?1.1:.6,stagger:.1},0);else tl.to(targets,{x:j=>j?-48:48,scaleY:.68,stagger:.1},0);controllers.push({el,tl,visible:false});});
