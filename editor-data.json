@@ -30,7 +30,7 @@
           "y": 50
         },
         {
-          "src": "assets/uploads/5c654566e9-IMG_1615.JPEG",
+          "src": "assets/uploads/dc2275091e-IMG_2514.JPEG",
           "type": "image",
           "alt": {
             "en": "",
@@ -53,6 +53,17 @@
         },
         {
           "src": "assets/uploads/b163a60890-IMG_1612.JPEG",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "assets/uploads/dc2275091e-IMG_2514.JPEG",
           "type": "image",
           "alt": {
             "en": "",
@@ -571,6 +582,6 @@
   },
   "lastUpdate": {
     "name": "erfan",
-    "at": "2026-11-22T11:10:15.106Z"
+    "at": "2026-11-22T11:16:52.314Z"
   }
 }
