@@ -3,6 +3,10 @@
   const data = window.KIYOTO_EDITOR_DATA;
   if (!data) return;
   const ordered = (g, parent = '', depth = 0) => depth > 50 ? [] : g.items.filter(n=>(n.parent||'')===parent).flatMap(n=>[n,...ordered(g,n.id,depth+1)]);
+  const safeAsset=src=>typeof src==='string'&&/^assets\/[a-zA-Z0-9/_.-]+$/.test(src)&&!src.includes('..');
+  window.KIYOTO_IMAGE_ATTRIBUTES=(src,sizes)=>{const entry=data.assetVariants?.[src],sources=(entry?.sources||[]).filter(s=>safeAsset(s.src)&&Number.isInteger(s.width)&&s.width>0);const largest=sources.at(-1);return sources.length?' srcset="'+sources.map(s=>s.src+' '+s.width+'w').join(', ')+'" sizes="'+sizes+'"'+(largest?' width="'+largest.width+'" height="'+largest.height+'"':''):'';};
+  const imageAttributes=(src,sizes)=>window.KIYOTO_IMAGE_ATTRIBUTES(src,sizes);
+  const posterAttributes=src=>{const poster=data.assetVariants?.[src]?.poster;return safeAsset(poster)?' poster="'+poster+'" preload="none"':' preload="metadata"';};
   window.KIYOTO_GROUPS = data.groups.map(g=>({...g,items:ordered(g)}));
   const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const text = (value, lang) => value?.[lang] || value?.en || '';
@@ -21,7 +25,7 @@
       const cover = p.media[0];
       const style = `object-position:${cover?.x ?? 50}% ${cover?.y ?? 50}%`;
       const title = text(p.title, lang) || discipline[lang];
-      return `<article class="work-space filled-work" data-category="${group.id}" data-discipline="${discipline.id}"><button class="project-cover" data-project="${esc(p.id)}" aria-label="${esc(title)}">${cover.type === 'video' ? `<video src="${esc(cover.src)}" muted playsinline preload="metadata" style="${style}"></video><span class="play-mark" aria-hidden="true">▶</span>` : `<img src="${esc(cover.src)}" alt="${esc(text(cover.alt, lang) || title)}" loading="lazy" style="${style}">`}</button><div class="work-caption"><h3>${esc(title)}</h3><span>${esc(discipline[lang])}${p.year ? ` / ${esc(p.year)}` : ''}</span></div></article>`;
+      return `<article class="work-space filled-work" data-category="${group.id}" data-discipline="${discipline.id}"><button class="project-cover" data-project="${esc(p.id)}" aria-label="${esc(title)}">${cover.type === 'video' ? `<video src="${esc(cover.src)}" muted playsinline${posterAttributes(cover.src)} style="${style}"></video><span class="play-mark" aria-hidden="true">▶</span>` : `<img src="${esc(cover.src)}" alt="${esc(text(cover.alt, lang) || title)}"${imageAttributes(cover.src,'(min-width:1600px) 460px, (min-width:781px) 31vw, 48vw')} loading="lazy" decoding="async" style="${style}">`}</button><div class="work-caption"><h3>${esc(title)}</h3><span>${esc(discipline[lang])}${p.year ? ` / ${esc(p.year)}` : ''}</span></div></article>`;
     });
     return cards;
   })).join('');
@@ -37,7 +41,7 @@
     const dialog = document.createElement('dialog');
     dialog.className = 'project-dialog';
     dialog.setAttribute('aria-label', title);
-    dialog.innerHTML = `<div class="project-dialog-top"><span>${esc(project.client || '')} ${esc(project.year || '')}</span><button class="project-close" aria-label="${lang === 'fa' ? 'بستن' : lang === 'ar' ? 'إغلاق' : 'Close project'}">×</button></div><h2>${esc(title)}</h2><div class="project-description">${text(project.description, lang).split('\n\n').map(p => `<p>${esc(p)}</p>`).join('')}</div><div class="project-gallery">${project.media.map(m => `<figure>${m.type === 'video' ? `<video src="${esc(m.src)}" controls playsinline preload="metadata"></video>` : `<img src="${esc(m.src)}" alt="${esc(text(m.alt, lang) || title)}" loading="lazy">`}</figure>`).join('')}</div>`;
+    dialog.innerHTML = `<div class="project-dialog-top"><span>${esc(project.client || '')} ${esc(project.year || '')}</span><button class="project-close" aria-label="${lang === 'fa' ? 'بستن' : lang === 'ar' ? 'إغلاق' : 'Close project'}">×</button></div><h2>${esc(title)}</h2><div class="project-description">${text(project.description, lang).split('\n\n').map(p => `<p>${esc(p)}</p>`).join('')}</div><div class="project-gallery">${project.media.map(m => `<figure>${m.type === 'video' ? `<video src="${esc(m.src)}" controls playsinline${posterAttributes(m.src)}></video>` : `<img src="${esc(m.src)}" alt="${esc(text(m.alt, lang) || title)}"${imageAttributes(m.src,'(min-width:1200px) 980px, 90vw')} loading="lazy" decoding="async">`}</figure>`).join('')}</div>`;
     document.body.append(dialog);
     dialog.querySelector('.project-close').onclick = () => closeProject(dialog);
     dialog.addEventListener('cancel', event => { event.preventDefault(); closeProject(dialog); });
