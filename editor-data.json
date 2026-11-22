@@ -386,6 +386,81 @@
       "published": true
     },
     {
+      "id": "slot-d214a186-da06-444f-9e11-c48d9544d9f5",
+      "title": {
+        "en": "",
+        "fa": "",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "fa": "",
+        "ar": ""
+      },
+      "discipline": "industrial",
+      "slot": 1,
+      "year": "",
+      "client": "",
+      "media": [
+        {
+          "src": "assets/uploads/7da62afa90689e092953-_RFA2552-jpgs2-1707.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "assets/uploads/a06e5535f7cc66cb1c3d-_RFA2566-jpgs22s-2048.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "assets/uploads/123af3154b1c9a040aa7-_RFA2563-jpgs2-2013.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "assets/uploads/c0fb34b98771d5afdd30-_RFA2880-jpgs22-1706.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "assets/uploads/da8974d8fbd0115cd19b-_RFA2886-jpgsda-1707.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        }
+      ],
+      "published": true
+    },
+    {
       "id": "slot-32944071-81b9-4abf-89b1-c81443b8c8fc",
       "title": {
         "en": "",
@@ -1105,7 +1180,7 @@
   },
   "lastUpdate": {
     "name": "erfan",
-    "at": "2026-11-22T13:47:14.507Z"
+    "at": "2026-11-22T13:50:52.614Z"
   },
   "deletedAssets": [
     "assets/uploads/67317e889d-wewewerwarawrwarwe-copy.jpg",
@@ -1769,6 +1844,111 @@
         },
         {
           "src": "assets/uploads/ab87c73533c3f80f5b8b-_RFA7857-jpgg-1707.webp",
+          "width": 1707,
+          "height": 2560
+        }
+      ]
+    },
+    "assets/uploads/7da62afa90689e092953-_RFA2552-jpgs2-1707.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/7da62afa90689e092953-_RFA2552-jpgs2-640.webp",
+          "width": 640,
+          "height": 960
+        },
+        {
+          "src": "assets/uploads/7da62afa90689e092953-_RFA2552-jpgs2-1280.webp",
+          "width": 1280,
+          "height": 1920
+        },
+        {
+          "src": "assets/uploads/7da62afa90689e092953-_RFA2552-jpgs2-1707.webp",
+          "width": 1707,
+          "height": 2560
+        }
+      ]
+    },
+    "assets/uploads/123af3154b1c9a040aa7-_RFA2563-jpgs2-2013.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/123af3154b1c9a040aa7-_RFA2563-jpgs2-640.webp",
+          "width": 640,
+          "height": 814
+        },
+        {
+          "src": "assets/uploads/123af3154b1c9a040aa7-_RFA2563-jpgs2-1280.webp",
+          "width": 1280,
+          "height": 1628
+        },
+        {
+          "src": "assets/uploads/123af3154b1c9a040aa7-_RFA2563-jpgs2-1920.webp",
+          "width": 1920,
+          "height": 2442
+        },
+        {
+          "src": "assets/uploads/123af3154b1c9a040aa7-_RFA2563-jpgs2-2013.webp",
+          "width": 2013,
+          "height": 2560
+        }
+      ]
+    },
+    "assets/uploads/a06e5535f7cc66cb1c3d-_RFA2566-jpgs22s-2048.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/a06e5535f7cc66cb1c3d-_RFA2566-jpgs22s-640.webp",
+          "width": 640,
+          "height": 800
+        },
+        {
+          "src": "assets/uploads/a06e5535f7cc66cb1c3d-_RFA2566-jpgs22s-1280.webp",
+          "width": 1280,
+          "height": 1600
+        },
+        {
+          "src": "assets/uploads/a06e5535f7cc66cb1c3d-_RFA2566-jpgs22s-1920.webp",
+          "width": 1920,
+          "height": 2400
+        },
+        {
+          "src": "assets/uploads/a06e5535f7cc66cb1c3d-_RFA2566-jpgs22s-2048.webp",
+          "width": 2048,
+          "height": 2560
+        }
+      ]
+    },
+    "assets/uploads/c0fb34b98771d5afdd30-_RFA2880-jpgs22-1706.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/c0fb34b98771d5afdd30-_RFA2880-jpgs22-640.webp",
+          "width": 640,
+          "height": 960
+        },
+        {
+          "src": "assets/uploads/c0fb34b98771d5afdd30-_RFA2880-jpgs22-1280.webp",
+          "width": 1280,
+          "height": 1921
+        },
+        {
+          "src": "assets/uploads/c0fb34b98771d5afdd30-_RFA2880-jpgs22-1706.webp",
+          "width": 1706,
+          "height": 2560
+        }
+      ]
+    },
+    "assets/uploads/da8974d8fbd0115cd19b-_RFA2886-jpgsda-1707.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/da8974d8fbd0115cd19b-_RFA2886-jpgsda-640.webp",
+          "width": 640,
+          "height": 960
+        },
+        {
+          "src": "assets/uploads/da8974d8fbd0115cd19b-_RFA2886-jpgsda-1280.webp",
+          "width": 1280,
+          "height": 1920
+        },
+        {
+          "src": "assets/uploads/da8974d8fbd0115cd19b-_RFA2886-jpgsda-1707.webp",
           "width": 1707,
           "height": 2560
         }
