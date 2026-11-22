@@ -69,7 +69,7 @@
   "members": [
     {
       "id": "erfan",
-      "image": "assets/erfan.jpg",
+      "image": "assets/uploads/f34627ff50-_RFA3031.JPG",
       "name": {
         "en": "Erfan Sharaf",
         "fa": "عرفان شرف",
@@ -570,7 +570,7 @@
     "socialImage": "assets/social-preview.png"
   },
   "lastUpdate": {
-    "name": "parsa",
-    "at": "2026-11-21T22:53:36.635Z"
+    "name": "erfan",
+    "at": "2026-11-22T11:06:12.732Z"
   }
 }
