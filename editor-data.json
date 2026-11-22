@@ -584,6 +584,17 @@
           },
           "x": 50,
           "y": 50
+        },
+        {
+          "src": "assets/uploads/ab87c73533c3f80f5b8b-_RFA7857-jpgg-1707.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
         }
       ],
       "published": true
@@ -1094,7 +1105,7 @@
   },
   "lastUpdate": {
     "name": "erfan",
-    "at": "2026-11-22T13:42:42.916Z"
+    "at": "2026-11-22T13:45:58.878Z"
   },
   "deletedAssets": [
     "assets/uploads/67317e889d-wewewerwarawrwarwe-copy.jpg",
@@ -1741,6 +1752,25 @@
           "src": "assets/uploads/db93eb8f94621483fe30-shahin-jpgdfg44-2000.webp",
           "width": 2000,
           "height": 1347
+        }
+      ]
+    },
+    "assets/uploads/ab87c73533c3f80f5b8b-_RFA7857-jpgg-1707.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/ab87c73533c3f80f5b8b-_RFA7857-jpgg-640.webp",
+          "width": 640,
+          "height": 960
+        },
+        {
+          "src": "assets/uploads/ab87c73533c3f80f5b8b-_RFA7857-jpgg-1280.webp",
+          "width": 1280,
+          "height": 1920
+        },
+        {
+          "src": "assets/uploads/ab87c73533c3f80f5b8b-_RFA7857-jpgg-1707.webp",
+          "width": 1707,
+          "height": 2560
         }
       ]
     }
