@@ -545,6 +545,48 @@
         }
       ],
       "published": true
+    },
+    {
+      "id": "slot-0aa18b44-7523-4ca1-bbc3-35e57407732b",
+      "title": {
+        "en": "",
+        "fa": "",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "fa": "",
+        "ar": ""
+      },
+      "discipline": "architecture",
+      "slot": 1,
+      "year": "",
+      "client": "",
+      "media": [
+        {
+          "src": "assets/uploads/c503282578990f542e76-shahin-jpgsdf3232-jpgs-1812.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "assets/uploads/db93eb8f94621483fe30-shahin-jpgdfg44-2000.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        }
+      ],
+      "published": true
     }
   ],
   "members": [
@@ -1052,7 +1094,7 @@
   },
   "lastUpdate": {
     "name": "erfan",
-    "at": "2026-11-22T13:38:50.918Z"
+    "at": "2026-11-22T13:42:42.916Z"
   },
   "deletedAssets": [
     "assets/uploads/67317e889d-wewewerwarawrwarwe-copy.jpg",
@@ -1656,6 +1698,49 @@
           "src": "assets/uploads/e779874160994901cf60-_RFA0495-jpgdfg-1707.webp",
           "width": 1707,
           "height": 2560
+        }
+      ]
+    },
+    "assets/uploads/c503282578990f542e76-shahin-jpgsdf3232-jpgs-1812.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/c503282578990f542e76-shahin-jpgsdf3232-jpgs-640.webp",
+          "width": 640,
+          "height": 904
+        },
+        {
+          "src": "assets/uploads/c503282578990f542e76-shahin-jpgsdf3232-jpgs-1280.webp",
+          "width": 1280,
+          "height": 1808
+        },
+        {
+          "src": "assets/uploads/c503282578990f542e76-shahin-jpgsdf3232-jpgs-1812.webp",
+          "width": 1812,
+          "height": 2560
+        }
+      ]
+    },
+    "assets/uploads/db93eb8f94621483fe30-shahin-jpgdfg44-2000.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/db93eb8f94621483fe30-shahin-jpgdfg44-640.webp",
+          "width": 640,
+          "height": 431
+        },
+        {
+          "src": "assets/uploads/db93eb8f94621483fe30-shahin-jpgdfg44-1280.webp",
+          "width": 1280,
+          "height": 862
+        },
+        {
+          "src": "assets/uploads/db93eb8f94621483fe30-shahin-jpgdfg44-1920.webp",
+          "width": 1920,
+          "height": 1293
+        },
+        {
+          "src": "assets/uploads/db93eb8f94621483fe30-shahin-jpgdfg44-2000.webp",
+          "width": 2000,
+          "height": 1347
         }
       ]
     }
