@@ -94,6 +94,17 @@
       "client": "",
       "media": [
         {
+          "src": "assets/uploads/a433cbeae5c8b5d8c9e9-_RFA9611-jpgsdf-jpgsad-2000.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        },
+        {
           "src": "assets/uploads/796ce016377cdb307dd7-IMG_9901-jpgdsa-1536.webp",
           "type": "image",
           "alt": {
@@ -666,7 +677,7 @@
   },
   "lastUpdate": {
     "name": "erfan",
-    "at": "2026-11-22T12:58:14.179Z"
+    "at": "2026-11-22T13:01:41.341Z"
   },
   "deletedAssets": [
     "assets/uploads/67317e889d-wewewerwarawrwarwe-copy.jpg",
@@ -746,6 +757,30 @@
           "src": "assets/uploads/796ce016377cdb307dd7-IMG_9901-jpgdsa-1536.webp",
           "width": 1536,
           "height": 1024
+        }
+      ]
+    },
+    "assets/uploads/a433cbeae5c8b5d8c9e9-_RFA9611-jpgsdf-jpgsad-2000.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/a433cbeae5c8b5d8c9e9-_RFA9611-jpgsdf-jpgsad-640.webp",
+          "width": 640,
+          "height": 415
+        },
+        {
+          "src": "assets/uploads/a433cbeae5c8b5d8c9e9-_RFA9611-jpgsdf-jpgsad-1280.webp",
+          "width": 1280,
+          "height": 831
+        },
+        {
+          "src": "assets/uploads/a433cbeae5c8b5d8c9e9-_RFA9611-jpgsdf-jpgsad-1920.webp",
+          "width": 1920,
+          "height": 1246
+        },
+        {
+          "src": "assets/uploads/a433cbeae5c8b5d8c9e9-_RFA9611-jpgsdf-jpgsad-2000.webp",
+          "width": 2000,
+          "height": 1298
         }
       ]
     }
