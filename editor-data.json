@@ -287,6 +287,48 @@
         }
       ],
       "published": true
+    },
+    {
+      "id": "slot-32944071-81b9-4abf-89b1-c81443b8c8fc",
+      "title": {
+        "en": "",
+        "fa": "",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "fa": "",
+        "ar": ""
+      },
+      "discipline": "fashion",
+      "slot": 2,
+      "year": "",
+      "client": "",
+      "media": [
+        {
+          "src": "assets/uploads/0269e0106aa8cb8adfb4-_RFA8889-jpgsadf-2000.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "assets/uploads/e92ea5422f6a8acb5a62-_RFA8957-fdsNR-jpgsdf-jpgsdd-2560.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        }
+      ],
+      "published": true
     }
   ],
   "members": [
@@ -794,7 +836,7 @@
   },
   "lastUpdate": {
     "name": "erfan",
-    "at": "2026-11-22T13:11:06.792Z"
+    "at": "2026-11-22T13:14:17.639Z"
   },
   "deletedAssets": [
     "assets/uploads/67317e889d-wewewerwarawrwarwe-copy.jpg",
@@ -874,6 +916,54 @@
           "src": "assets/uploads/796ce016377cdb307dd7-IMG_9901-jpgdsa-1536.webp",
           "width": 1536,
           "height": 1024
+        }
+      ]
+    },
+    "assets/uploads/0269e0106aa8cb8adfb4-_RFA8889-jpgsadf-2000.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/0269e0106aa8cb8adfb4-_RFA8889-jpgsadf-640.webp",
+          "width": 640,
+          "height": 314
+        },
+        {
+          "src": "assets/uploads/0269e0106aa8cb8adfb4-_RFA8889-jpgsadf-1280.webp",
+          "width": 1280,
+          "height": 628
+        },
+        {
+          "src": "assets/uploads/0269e0106aa8cb8adfb4-_RFA8889-jpgsadf-1920.webp",
+          "width": 1920,
+          "height": 943
+        },
+        {
+          "src": "assets/uploads/0269e0106aa8cb8adfb4-_RFA8889-jpgsadf-2000.webp",
+          "width": 2000,
+          "height": 982
+        }
+      ]
+    },
+    "assets/uploads/e92ea5422f6a8acb5a62-_RFA8957-fdsNR-jpgsdf-jpgsdd-2560.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/e92ea5422f6a8acb5a62-_RFA8957-fdsNR-jpgsdf-jpgsdd-640.webp",
+          "width": 640,
+          "height": 458
+        },
+        {
+          "src": "assets/uploads/e92ea5422f6a8acb5a62-_RFA8957-fdsNR-jpgsdf-jpgsdd-1280.webp",
+          "width": 1280,
+          "height": 916
+        },
+        {
+          "src": "assets/uploads/e92ea5422f6a8acb5a62-_RFA8957-fdsNR-jpgsdf-jpgsdd-1920.webp",
+          "width": 1920,
+          "height": 1374
+        },
+        {
+          "src": "assets/uploads/e92ea5422f6a8acb5a62-_RFA8957-fdsNR-jpgsdf-jpgsdd-2560.webp",
+          "width": 2560,
+          "height": 1832
         }
       ]
     },
