@@ -256,6 +256,37 @@
         }
       ],
       "published": true
+    },
+    {
+      "id": "slot-8a756ddb-56a2-4dc1-b18d-3bf4a038e8fe",
+      "title": {
+        "en": "",
+        "fa": "",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "fa": "",
+        "ar": ""
+      },
+      "discipline": "portrait",
+      "slot": 1,
+      "year": "",
+      "client": "",
+      "media": [
+        {
+          "src": "assets/uploads/26872a3f7bbcd10b750e-_RFA9228-jpgs2-1927.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        }
+      ],
+      "published": true
     }
   ],
   "members": [
@@ -763,7 +794,7 @@
   },
   "lastUpdate": {
     "name": "erfan",
-    "at": "2026-11-22T13:07:14.150Z"
+    "at": "2026-11-22T13:11:06.792Z"
   },
   "deletedAssets": [
     "assets/uploads/67317e889d-wewewerwarawrwarwe-copy.jpg",
@@ -971,6 +1002,30 @@
           "src": "assets/uploads/a361baf15633c2021a1f-DSC00941-jpgs2-1136.webp",
           "width": 1136,
           "height": 1704
+        }
+      ]
+    },
+    "assets/uploads/26872a3f7bbcd10b750e-_RFA9228-jpgs2-1927.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/26872a3f7bbcd10b750e-_RFA9228-jpgs2-640.webp",
+          "width": 640,
+          "height": 850
+        },
+        {
+          "src": "assets/uploads/26872a3f7bbcd10b750e-_RFA9228-jpgs2-1280.webp",
+          "width": 1280,
+          "height": 1700
+        },
+        {
+          "src": "assets/uploads/26872a3f7bbcd10b750e-_RFA9228-jpgs2-1920.webp",
+          "width": 1920,
+          "height": 2551
+        },
+        {
+          "src": "assets/uploads/26872a3f7bbcd10b750e-_RFA9228-jpgs2-1927.webp",
+          "width": 1927,
+          "height": 2560
         }
       ]
     }
