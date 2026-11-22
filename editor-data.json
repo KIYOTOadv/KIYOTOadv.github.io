@@ -75,6 +75,90 @@
         }
       ],
       "published": true
+    },
+    {
+      "id": "slot-5fd68c91-4ac6-4c3c-abfb-c33deaf84e3a",
+      "title": {
+        "en": "Farnasp",
+        "fa": "",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "fa": "",
+        "ar": ""
+      },
+      "discipline": "fashion",
+      "slot": 1,
+      "year": "",
+      "client": "",
+      "media": [
+        {
+          "src": "assets/uploads/796ce016377cdb307dd7-IMG_9901-jpgdsa-1536.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "assets/uploads/b3673347249af0b51789-_RFA9611-jpgmnbmbn-2560.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        }
+      ],
+      "published": true
+    },
+    {
+      "id": "slot-bc2d4c68-7588-404f-acf6-8adfac2dbe6c",
+      "title": {
+        "en": "YUNG",
+        "fa": "",
+        "ar": ""
+      },
+      "description": {
+        "en": "Cover Albume ",
+        "fa": "",
+        "ar": ""
+      },
+      "discipline": "cover",
+      "slot": 1,
+      "year": "",
+      "client": "",
+      "media": [
+        {
+          "src": "assets/uploads/ac5fa19b2bd18ed77bdb-IMG_0049-1536.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "assets/uploads/f101a66e2d2db380e7b4-IMG_0048-1122.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        }
+      ],
+      "published": true
     }
   ],
   "members": [
@@ -582,6 +666,88 @@
   },
   "lastUpdate": {
     "name": "erfan",
-    "at": "2026-11-22T11:16:52.314Z"
+    "at": "2026-11-22T12:58:14.179Z"
+  },
+  "deletedAssets": [
+    "assets/uploads/67317e889d-wewewerwarawrwarwe-copy.jpg",
+    "assets/uploads/5c654566e9-IMG_1615.JPEG"
+  ],
+  "assetVariants": {
+    "assets/uploads/f101a66e2d2db380e7b4-IMG_0048-1122.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/f101a66e2d2db380e7b4-IMG_0048-640.webp",
+          "width": 640,
+          "height": 800
+        },
+        {
+          "src": "assets/uploads/f101a66e2d2db380e7b4-IMG_0048-1122.webp",
+          "width": 1122,
+          "height": 1402
+        }
+      ]
+    },
+    "assets/uploads/ac5fa19b2bd18ed77bdb-IMG_0049-1536.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/ac5fa19b2bd18ed77bdb-IMG_0049-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "assets/uploads/ac5fa19b2bd18ed77bdb-IMG_0049-1280.webp",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "src": "assets/uploads/ac5fa19b2bd18ed77bdb-IMG_0049-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    },
+    "assets/uploads/b3673347249af0b51789-_RFA9611-jpgmnbmbn-2560.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/b3673347249af0b51789-_RFA9611-jpgmnbmbn-640.webp",
+          "width": 640,
+          "height": 482
+        },
+        {
+          "src": "assets/uploads/b3673347249af0b51789-_RFA9611-jpgmnbmbn-1280.webp",
+          "width": 1280,
+          "height": 963
+        },
+        {
+          "src": "assets/uploads/b3673347249af0b51789-_RFA9611-jpgmnbmbn-1920.webp",
+          "width": 1920,
+          "height": 1445
+        },
+        {
+          "src": "assets/uploads/b3673347249af0b51789-_RFA9611-jpgmnbmbn-2560.webp",
+          "width": 2560,
+          "height": 1926
+        }
+      ]
+    },
+    "assets/uploads/796ce016377cdb307dd7-IMG_9901-jpgdsa-1536.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/796ce016377cdb307dd7-IMG_9901-jpgdsa-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "assets/uploads/796ce016377cdb307dd7-IMG_9901-jpgdsa-1280.webp",
+          "width": 1280,
+          "height": 853
+        },
+        {
+          "src": "assets/uploads/796ce016377cdb307dd7-IMG_9901-jpgdsa-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ]
+    }
   }
 }
