@@ -170,6 +170,92 @@
         }
       ],
       "published": true
+    },
+    {
+      "id": "slot-26226054-fd44-4def-b347-a73bfb01318a",
+      "title": {
+        "en": "",
+        "fa": "",
+        "ar": ""
+      },
+      "description": {
+        "en": "",
+        "fa": "",
+        "ar": ""
+      },
+      "discipline": "wedding-photo",
+      "slot": 1,
+      "year": "",
+      "client": "",
+      "media": [
+        {
+          "src": "assets/uploads/4eabf295dd3fd0b9b918-_RFA0156-jpgs2-2560.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "assets/uploads/83f15b1c572a90d2be58-_RFA9842-jpgs2s2-1707.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "assets/uploads/0f7b85209049110b02e8-_RFA9864-jpgs2-jpgju-1004.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "assets/uploads/a361baf15633c2021a1f-DSC00941-jpgs2-1136.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "assets/uploads/0ed7f0219858ee41389e-_RFA9824-jpgs2s-1707.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        },
+        {
+          "src": "assets/uploads/c02285dbd77930e228eb-_RFA9864-jpgki-996.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        }
+      ],
+      "published": true
     }
   ],
   "members": [
@@ -677,7 +763,7 @@
   },
   "lastUpdate": {
     "name": "erfan",
-    "at": "2026-11-22T13:01:41.341Z"
+    "at": "2026-11-22T13:07:14.150Z"
   },
   "deletedAssets": [
     "assets/uploads/67317e889d-wewewerwarawrwarwe-copy.jpg",
@@ -781,6 +867,110 @@
           "src": "assets/uploads/a433cbeae5c8b5d8c9e9-_RFA9611-jpgsdf-jpgsad-2000.webp",
           "width": 2000,
           "height": 1298
+        }
+      ]
+    },
+    "assets/uploads/4eabf295dd3fd0b9b918-_RFA0156-jpgs2-2560.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/4eabf295dd3fd0b9b918-_RFA0156-jpgs2-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "src": "assets/uploads/4eabf295dd3fd0b9b918-_RFA0156-jpgs2-1280.webp",
+          "width": 1280,
+          "height": 854
+        },
+        {
+          "src": "assets/uploads/4eabf295dd3fd0b9b918-_RFA0156-jpgs2-1920.webp",
+          "width": 1920,
+          "height": 1280
+        },
+        {
+          "src": "assets/uploads/4eabf295dd3fd0b9b918-_RFA0156-jpgs2-2560.webp",
+          "width": 2560,
+          "height": 1707
+        }
+      ]
+    },
+    "assets/uploads/0ed7f0219858ee41389e-_RFA9824-jpgs2s-1707.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/0ed7f0219858ee41389e-_RFA9824-jpgs2s-640.webp",
+          "width": 640,
+          "height": 960
+        },
+        {
+          "src": "assets/uploads/0ed7f0219858ee41389e-_RFA9824-jpgs2s-1280.webp",
+          "width": 1280,
+          "height": 1920
+        },
+        {
+          "src": "assets/uploads/0ed7f0219858ee41389e-_RFA9824-jpgs2s-1707.webp",
+          "width": 1707,
+          "height": 2560
+        }
+      ]
+    },
+    "assets/uploads/83f15b1c572a90d2be58-_RFA9842-jpgs2s2-1707.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/83f15b1c572a90d2be58-_RFA9842-jpgs2s2-640.webp",
+          "width": 640,
+          "height": 960
+        },
+        {
+          "src": "assets/uploads/83f15b1c572a90d2be58-_RFA9842-jpgs2s2-1280.webp",
+          "width": 1280,
+          "height": 1920
+        },
+        {
+          "src": "assets/uploads/83f15b1c572a90d2be58-_RFA9842-jpgs2s2-1707.webp",
+          "width": 1707,
+          "height": 2560
+        }
+      ]
+    },
+    "assets/uploads/c02285dbd77930e228eb-_RFA9864-jpgki-996.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/c02285dbd77930e228eb-_RFA9864-jpgki-640.webp",
+          "width": 640,
+          "height": 982
+        },
+        {
+          "src": "assets/uploads/c02285dbd77930e228eb-_RFA9864-jpgki-996.webp",
+          "width": 996,
+          "height": 1528
+        }
+      ]
+    },
+    "assets/uploads/0f7b85209049110b02e8-_RFA9864-jpgs2-jpgju-1004.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/0f7b85209049110b02e8-_RFA9864-jpgs2-jpgju-640.webp",
+          "width": 640,
+          "height": 974
+        },
+        {
+          "src": "assets/uploads/0f7b85209049110b02e8-_RFA9864-jpgs2-jpgju-1004.webp",
+          "width": 1004,
+          "height": 1528
+        }
+      ]
+    },
+    "assets/uploads/a361baf15633c2021a1f-DSC00941-jpgs2-1136.webp": {
+      "sources": [
+        {
+          "src": "assets/uploads/a361baf15633c2021a1f-DSC00941-jpgs2-640.webp",
+          "width": 640,
+          "height": 960
+        },
+        {
+          "src": "assets/uploads/a361baf15633c2021a1f-DSC00941-jpgs2-1136.webp",
+          "width": 1136,
+          "height": 1704
         }
       ]
     }
