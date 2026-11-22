@@ -564,6 +564,17 @@
       "client": "",
       "media": [
         {
+          "src": "assets/uploads/ab87c73533c3f80f5b8b-_RFA7857-jpgg-1707.webp",
+          "type": "image",
+          "alt": {
+            "en": "",
+            "fa": "",
+            "ar": ""
+          },
+          "x": 50,
+          "y": 50
+        },
+        {
           "src": "assets/uploads/c503282578990f542e76-shahin-jpgsdf3232-jpgs-1812.webp",
           "type": "image",
           "alt": {
@@ -576,17 +587,6 @@
         },
         {
           "src": "assets/uploads/db93eb8f94621483fe30-shahin-jpgdfg44-2000.webp",
-          "type": "image",
-          "alt": {
-            "en": "",
-            "fa": "",
-            "ar": ""
-          },
-          "x": 50,
-          "y": 50
-        },
-        {
-          "src": "assets/uploads/ab87c73533c3f80f5b8b-_RFA7857-jpgg-1707.webp",
           "type": "image",
           "alt": {
             "en": "",
@@ -1105,7 +1105,7 @@
   },
   "lastUpdate": {
     "name": "erfan",
-    "at": "2026-11-22T13:45:58.878Z"
+    "at": "2026-11-22T13:47:14.507Z"
   },
   "deletedAssets": [
     "assets/uploads/67317e889d-wewewerwarawrwarwe-copy.jpg",
